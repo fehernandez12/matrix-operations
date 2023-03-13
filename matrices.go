@@ -6,8 +6,6 @@ import (
 	"math"
 )
 
-const w_app_id = "A3327A-EPTEETJEAA"
-
 type stack []float64
 
 func (s *stack) isEmpty() bool {
