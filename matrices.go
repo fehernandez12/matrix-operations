@@ -447,8 +447,3 @@ func VectorMultiply(x []float64, y []float64) []float64 {
 	}
 	return z
 }
-
-func main() {
-	u := []float64{2, 1, 3}
-	fmt.Printf("%v", VectorNormalize(u))
-}
